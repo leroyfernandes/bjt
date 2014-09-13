@@ -1,4 +1,4 @@
-bjt
-===
+Blackjack Trainer
+=================
 
-blackjack trainer
+A simple text based trainer to learn blackjack
