@@ -7,33 +7,33 @@ var deck = function(numberOfDecks){
 	};
 
 	var standardDeck = [
-		{ 'display': '2'+symbols.heart, 'value': 2 },
-		{ 'display': '3'+symbols.heart, 'value': 3 },
-		{ 'display': '4'+symbols.heart, 'value': 4 },
-		{ 'display': '5'+symbols.heart, 'value': 5 },
-		{ 'display': '6'+symbols.heart, 'value': 6 },
-		{ 'display': '7'+symbols.heart, 'value': 7 },
-		{ 'display': '8'+symbols.heart, 'value': 8 },
-		{ 'display': '9'+symbols.heart, 'value': 9 },
-		{ 'display': '10'+symbols.heart, 'value': 10 },
-		{ 'display': 'J'+symbols.heart, 'value': 10 },
-		{ 'display': 'Q'+symbols.heart, 'value': 10 },
-		{ 'display': 'K'+symbols.heart, 'value': 10 },
-		{ 'display': 'A'+symbols.heart, 'value': 11 },
+		{ 'display': '<span class="card heart">2'+symbols.heart+'</span>', 'value': 2 },
+		{ 'display': '<span class="card heart">3'+symbols.heart+'</span>', 'value': 3 },
+		{ 'display': '<span class="card heart">4'+symbols.heart+'</span>', 'value': 4 },
+		{ 'display': '<span class="card heart">5'+symbols.heart+'</span>', 'value': 5 },
+		{ 'display': '<span class="card heart">6'+symbols.heart+'</span>', 'value': 6 },
+		{ 'display': '<span class="card heart">7'+symbols.heart+'</span>', 'value': 7 },
+		{ 'display': '<span class="card heart">8'+symbols.heart+'</span>', 'value': 8 },
+		{ 'display': '<span class="card heart">9'+symbols.heart+'</span>', 'value': 9 },
+		{ 'display': '<span class="card heart">10'+symbols.heart+'</span>', 'value': 10 },
+		{ 'display': '<span class="card heart">J'+symbols.heart+'</span>', 'value': 10 },
+		{ 'display': '<span class="card heart">Q'+symbols.heart+'</span>', 'value': 10 },
+		{ 'display': '<span class="card heart">K'+symbols.heart+'</span>', 'value': 10 },
+		{ 'display': '<span class="card heart">A'+symbols.heart+'</span>', 'value': 11 },
 		
-		{ 'display': '2'+symbols.diamond, 'value': 2 },
-		{ 'display': '3'+symbols.diamond, 'value': 3 },
-		{ 'display': '4'+symbols.diamond, 'value': 4 },
-		{ 'display': '5'+symbols.diamond, 'value': 5 },
-		{ 'display': '6'+symbols.diamond, 'value': 6 },
-		{ 'display': '7'+symbols.diamond, 'value': 7 },
-		{ 'display': '8'+symbols.diamond, 'value': 8 },
-		{ 'display': '9'+symbols.diamond, 'value': 9 },
-		{ 'display': '10'+symbols.diamond, 'value': 10 },
-		{ 'display': 'J'+symbols.diamond, 'value': 10 },
-		{ 'display': 'Q'+symbols.diamond, 'value': 10 },
-		{ 'display': 'K'+symbols.diamond, 'value': 10 },
-		{ 'display': 'A'+symbols.diamond, 'value': 11 },
+		{ 'display': '<span class="card diamond">2'+symbols.diamond+'</span>', 'value': 2 },
+		{ 'display': '<span class="card diamond">3'+symbols.diamond+'</span>', 'value': 3 },
+		{ 'display': '<span class="card diamond">4'+symbols.diamond+'</span>', 'value': 4 },
+		{ 'display': '<span class="card diamond">5'+symbols.diamond+'</span>', 'value': 5 },
+		{ 'display': '<span class="card diamond">6'+symbols.diamond+'</span>', 'value': 6 },
+		{ 'display': '<span class="card diamond">7'+symbols.diamond+'</span>', 'value': 7 },
+		{ 'display': '<span class="card diamond">8'+symbols.diamond+'</span>', 'value': 8 },
+		{ 'display': '<span class="card diamond">9'+symbols.diamond+'</span>', 'value': 9 },
+		{ 'display': '<span class="card diamond">10'+symbols.diamond+'</span>', 'value': 10 },
+		{ 'display': '<span class="card diamond">J'+symbols.diamond+'</span>', 'value': 10 },
+		{ 'display': '<span class="card diamond">Q'+symbols.diamond+'</span>', 'value': 10 },
+		{ 'display': '<span class="card diamond">K'+symbols.diamond+'</span>', 'value': 10 },
+		{ 'display': '<span class="card diamond">A'+symbols.diamond+'</span>', 'value': 11 },
 
 		{ 'display': '2'+symbols.spade, 'value': 2 },
 		{ 'display': '3'+symbols.spade, 'value': 3 },
@@ -83,7 +83,7 @@ var deck = function(numberOfDecks){
 			for(var i=0; i<input.length; i++){
 				$('body').append( input[i]['display'] );
 			}
-			$('body').append('<br>');
+			$('body').append('<br>-------------------------------<br>');
 		}
 	}
 	
